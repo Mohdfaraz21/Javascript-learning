@@ -14,7 +14,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
 
 // 1=> true: 0=> false
-// "" => flase
+// "" => false
 // "faraz" => true
 
 let someNumber = 33
