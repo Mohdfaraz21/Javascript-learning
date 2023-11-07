@@ -13,7 +13,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId)
+// console.log(id === anotherId)
 
 // Reference(Non Premitive)
 
@@ -29,8 +29,32 @@ let myObj ={
 // function ()}
 
 const myFunction = function(){
-    console.log("Hello World");
+    // console.log("Hello World");
 }
 
 
-console.log(typeof scoreValue);
+// console.log(typeof scoreValue);
+
+// ******************************************************** MEMORY ************************************************************//
+
+// STACK (PREMITIVE)  HEAP (NON-PREMITIVE)
+
+let myYoutubename = "farazdotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email:  "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "faraz@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
