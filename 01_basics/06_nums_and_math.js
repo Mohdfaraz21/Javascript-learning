@@ -4,20 +4,20 @@ console.log(score);
 const balance = new Number(100)
 console.log(balance);
 
-// console.log(balance.toString().length);
+console.log(balance.toString().length);
 // length of the string 3
-// console.log(balance.toFixed(1));
+console.log(balance.toFixed(1));
 // to giving the decimal value like 100.0 if you put fixed value 2 then got 100.00 it is mainly use is the ecommers 
 const otherNumber = 123.8966
-// console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(3));
 // 124 output
-// console.log(otherNumber.toPrecision(2));
+console.log(otherNumber.toPrecision(2));
 // 1.2e+2
-// console.log(otherNumber.toPrecision(4));
+console.log(otherNumber.toPrecision(4));
 // 123.9
 const hundreds = 1000000
 console.log(hundreds.toLocaleString());
-// console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN'));
 
 // *****************************************************MATHS****************************************
 // console.log(Math);
