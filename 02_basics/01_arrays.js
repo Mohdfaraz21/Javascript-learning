@@ -1,5 +1,5 @@
 // ARRAY
-// js array is resiable
+// js array is resizable
 
 const myArr = [0, 1, 2, 3, 4, 5]
 const myHeroes = ["juniorji", "shaktiman", "hatim"]
