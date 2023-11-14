@@ -42,3 +42,4 @@ chai()
 // **object return krne k liye paranthesis ki zarurat padegi
 const addTwo = (num1, num2) => ({username:"faraz"})
 console.log(addTwo(3, 4));
+
