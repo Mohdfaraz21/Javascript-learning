@@ -44,3 +44,6 @@ if (userLoggedIn && debitCard) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+// &&(and)  operator me sari value true honi chahiye
+// ||(or) operator me ek value bhi true hui ko kam ho jayega
