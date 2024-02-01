@@ -1,5 +1,5 @@
 // const p = new Promise((resolve, reject) => {
-//     resolve("Promis ResoLved VALUE ")
+//     resolve("Promise ResoLved VALUE ")
 // })
 
 // // ?Always return a promise
