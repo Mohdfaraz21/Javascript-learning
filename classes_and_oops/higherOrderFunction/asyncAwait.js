@@ -64,3 +64,10 @@ async function handlePromise() {
         console.log(jsonValue)
 }
 // handlePromise().catch((err) => console.log(err))
+
+// ?? facebook se photo lao phir useke baad show karo
+// ? callback function async code me answer ane par chlta hai
+// ? callback func ek normal func hai jisko kch time baad callback kiye jata hai
+// **concurrency => js mein synch code and async code ek saath process ho rha tha ye hai concurrency
+// ** parallelism => focus zada krta hai different proccesor and unke cores par kam ko chalane par
+// ** throttling => kisi code ko control karna number of executions.
